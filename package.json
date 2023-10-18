@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://fate-ui.github.io/flowChart/",
+  "packageManager": "pnpm@8.6.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
