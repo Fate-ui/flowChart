@@ -4,7 +4,7 @@ import { createVitePlugins } from './config/vitePlugin'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const base = mode === 'development' ? '/' : '/WebglStudy/'
+  const base = mode === 'development' ? '/' : '/flowChart/'
   return {
     base,
     resolve: {
