@@ -8,7 +8,7 @@ export interface IStateData<T = any> {
   title: string
   fullscreenLoading: boolean
   toggleSearchStatus: boolean
-  rules: Partial<Record<keyof T, RulesItem[]>>
+  rules: Partial<Record<keyof T, any[]>>
 }
 
 export const getState = <T = any>() => {

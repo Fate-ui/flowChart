@@ -1,6 +1,5 @@
 import type { Ref } from 'vue'
-import type { IPosition } from '@/types'
-import type { IFlow, INode } from '@/components/Flow/utils'
+import type { IFlow, INode, IPosition } from '@/components/Flow/utils'
 import { createUuid } from '@/utils'
 import { elementNodeSize } from '@/components/Flow/utils'
 

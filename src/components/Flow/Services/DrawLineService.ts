@@ -1,6 +1,5 @@
 import type { Ref } from 'vue'
-import type { IPosition } from '@/types'
-import type { IConnect, IFlow, INode, IStartType } from '@/components/Flow/utils'
+import type { IConnect, IFlow, INode, IPosition, IStartType } from '@/components/Flow/utils'
 import { useOn } from '@/hooks/useOn'
 import { createUuid, flowEmitter } from '@/utils'
 import { conditionNodes, controlBtnClass, defaultLinkOp, getCurvePath, linkOp, offset } from '@/components/Flow/utils'

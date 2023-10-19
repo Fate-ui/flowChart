@@ -25,10 +25,7 @@ export function buildConfig(): BuildOptions {
         },
         manualChunks: {
           vue: ['vue', 'vue-router'],
-          'element-plus': ['element-plus'],
-          echarts: ['echarts'],
-          'lottie-web': ['lottie-web'],
-          three: ['three']
+          'element-plus': ['element-plus']
         }
       }
     }
