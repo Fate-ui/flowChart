@@ -1,5 +1,7 @@
 # 流程图项目
 
+### [项目演示](https://fate-ui.github.io/flowChart/)
+
 ## 1. 项目介绍
 
 类似于[node-red](https://github.com/node-red/node-red)、[ngx-flowchart](https://github.com/thingsboard/ngx-flowchart)
