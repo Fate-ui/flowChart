@@ -1,3 +1,7 @@
+@use 'scrollbar';
+@use 'variables.module';
+@use 'element-plus/dist/index.css';
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -24,6 +28,9 @@ a {
 body {
   min-width: 320px;
   min-height: 100vh;
+  --event-node-color: #14b8a6;
+  --middle-node-color: #3b82f6;
+  --action-node-color: #f87171;
 }
 
 #app {
@@ -34,8 +41,5 @@ body {
     color: #213547;
     background-color: #ffffff;
   }
-
-  a:hover {
-    color: #747bff;
-  }
 }
+

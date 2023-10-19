@@ -1,0 +1,38 @@
+/**
+滚动条全局样式
+ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+//滚动条小方块
+::-webkit-scrollbar-thumb {
+  display: block;
+  border-radius: 8px;
+  opacity: 0.3;
+  background-color: rgb(219, 226, 231);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  display: block;
+  border-radius: 8px;
+  opacity: 0.5;
+  background-color: #c4cfd6;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255);
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 0;
+  background: transparent;
+}
+//横竖滚动条交汇处
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+// 兼容火狐
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(219, 226, 231) transparent;
+}

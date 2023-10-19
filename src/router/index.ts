@@ -11,7 +11,7 @@ export const constantRoutes: Array<RouteRecordRawExt> = [
   },
   {
     path: '/home',
-    component: () => import('@/views/Home.vue')
+    component: () => import('@/views/Home/Index.vue')
   }
 ]
 
