@@ -5,7 +5,7 @@
 ## 1. 项目介绍
 
 类似于[node-red](https://github.com/node-red/node-red)、[ngx-flowchart](https://github.com/thingsboard/ngx-flowchart)
-的流程图项目，目前已实现了以下功能：
+的流程图项目，目前已实现了以下功能(项目中部分功能参考于ngx-flowchart)：
 
 - [x] 向画布中添加节点及删除节点
 - [x] 节点的拖动

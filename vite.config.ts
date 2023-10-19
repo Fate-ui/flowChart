@@ -1,8 +1,7 @@
 import path from 'path'
 import { defineConfig } from 'vite'
 import { createVitePlugins } from './config/vitePlugin'
-import { buildConfig } from "./config/build"
-
+import { buildConfig } from './config/build'
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
