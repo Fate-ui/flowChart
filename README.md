@@ -31,7 +31,7 @@
 
 2. 安装依赖
 
-项目是在pnpm下开发的，如果没有安装pnpm，可以使用npm或者yarn代替。如若报错，请尝试[安装pnpm](https://www.pnpm.cn/installation)
+项目是在pnpm下开发的，如果没有安装pnpm，可以使用npm或者yarn代替。如若报错，请[安装pnpm](https://www.pnpm.cn/installation)
 后尝试。
 
 ```bash

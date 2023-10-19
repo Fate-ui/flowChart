@@ -37,7 +37,6 @@ export function useOn(target, event: string, listener: any) {
   const stop = () => {
     stopWatch()
     cleanup()
-    console.count('停止监听次数：')
   }
 
   //组件销毁后，取消监听
