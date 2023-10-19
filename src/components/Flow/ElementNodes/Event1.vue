@@ -15,7 +15,7 @@ const rules: FormRules<typeof data.params> = {
 </script>
 
 <template>
-  <ElementNode :data="data" title="事件节点1" control-point="right" :form-ref="formRef">
+  <ElementNode :data="data" title="条件节点1" control-point="right" :form-ref="formRef">
     <el-form
       ref="formRef"
       :inline="true"
