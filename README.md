@@ -26,7 +26,7 @@
 
 ```bash
  git clone https://github.com/Fate-ui/flowChart.git
- cd node-red
+ cd flowChart
 ```
 
 2. 安装依赖
