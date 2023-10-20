@@ -25,28 +25,6 @@ function removeSelected() {
 </template>
 
 <style scoped lang="scss">
-.right-box {
-  transition: width $tr;
-}
-
-:deep(.el-textarea) {
-  .el-textarea__inner {
-    background-color: #f5f7fa;
-    box-shadow: none;
-  }
-}
-
-:deep(.el-input__wrapper) {
-  background-color: #f5f7fa;
-  //padding: 0;
-  box-shadow: none;
-  border-radius: 0;
-
-  .el-input__inner {
-    text-align: center;
-  }
-}
-
 // 底部元素从下往上滑动
 .slide-up1-enter-active,
 .slide-up1-leave-active {
