@@ -25,7 +25,7 @@
 
 ......等
 
-![项目图片](public/demo.png)
+![项目图片](public/demo.gif)
 
 ## 2. 项目启动
 
