@@ -92,6 +92,10 @@ function confirm() {
     }
   })
 }
+
+watch(flowStore.flowData, (value) => {
+  console.log(value)
+})
 </script>
 <template>
   <div
