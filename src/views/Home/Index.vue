@@ -2,6 +2,17 @@
 import Flow from '@/components/Flow/Index.vue'
 import Left from '@/views/Home/Left.vue'
 import Right from '@/views/Home/Right.vue'
+import { defaultFlowData, useFlowStore } from '@/store/flow'
+
+/**
+ * 数据缓存至localStorage
+ * */
+const flowStore = useFlowStore()
+const oldFlowData = localStorage.getItem('flowData')
+flowStore.flowData = oldFlowData ? JSON.parse(oldFlowData) : defaultFlowData
+watch(flowStore.flowData, (value) => {
+  localStorage.setItem('flowData', JSON.stringify(toRaw(value)))
+})
 </script>
 
 <template>

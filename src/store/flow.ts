@@ -1,7 +1,7 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import type { IConnect, IFlow, INode, IPosition } from '@/components/Flow/utils'
 
-const defaultFlowData: IFlow = {
+export const defaultFlowData: IFlow = {
   canvasSize: { width: 1920, height: 1080 },
   nodes: [
     {
@@ -61,7 +61,7 @@ export const useFlowStore = defineStore({
     dom: {
       elementNodeContainerDom: null as HTMLElement
     },
-    flowData: defaultFlowData,
+    flowData: { canvasSize: { width: 1920, height: 1080 }, nodes: [], connections: [] } as IFlow,
     flowDomOffset: null as IPosition,
     scrollDom: null as HTMLElement,
     selectedLines: [] as IConnect[],
