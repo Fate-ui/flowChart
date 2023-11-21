@@ -60,3 +60,36 @@
 ## 3. 项目主要技术栈
 
 #### vue3 + vite + typescript + pinia + element-plus + unocss + vueuse
+
+## 4. 画布数据结构
+
+```ts
+export interface IFlow {
+    nodes: INode[] // 节点
+    connections: IConnect[] // 连线
+    canvasSize: { width: number; height: number } // 画布尺寸
+}
+
+
+export interface INode<Params = any> {
+    id: string // 前端根据uuid规则生成
+    type: string // 节点类型
+    params: Params // 存放每个节点的表单数据
+    additional: { // 自定义参数
+        layoutX: number // 节点在画布中的x坐标
+        layoutY: number // 节点在画布中的y坐标
+        showDrop?: boolean // 节点是否收缩
+    }
+}
+
+export interface IConnect {
+    fromId: string // 连线起点节点id
+    toId: string  // 连线终点节点id
+    from?: number // 连线起点index(方便后端直接使用数据)
+    to?: number  // 连线终点index(方便后端直接使用数据)
+    type: string // 连线类型
+    id: string
+    hidden?: boolean
+}
+
+```
